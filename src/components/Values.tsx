@@ -37,13 +37,13 @@ const Values = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-white mb-6">
-            Nos{' '}
+            Our{' '}
             <span className="bg-gradient-to-r from-security-gold to-security-silver bg-clip-text text-transparent">
-              Valeurs
+              Values
             </span>
           </h2>
           <p className="font-roboto text-xl text-gray-300 max-w-3xl mx-auto">
-            Les principes fondamentaux qui guident notre approche de la sécurité professionnelle
+            The fundamental principles that guide our approach to professional security
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-security-gold to-security-silver mx-auto mt-6"></div>
         </div>
@@ -81,13 +81,13 @@ const Values = () => {
         <div className="text-center mt-16">
           <div className="bg-gradient-to-r from-security-gold/10 to-security-silver/10 p-8 rounded-2xl border border-security-gold/20 max-w-4xl mx-auto">
             <h3 className="font-montserrat font-bold text-2xl text-white mb-4">
-              Engagés pour votre sécurité
+              Committed to Your Security
             </h3>
             <p className="font-roboto text-gray-300 mb-6">
-              Notre réputation repose sur la confiance, la discrétion et l'excellence opérationnelle
+              Our reputation is built on trust, discretion and operational excellence
             </p>
             <button className="bg-gradient-to-r from-security-gold to-security-silver text-security-dark font-montserrat font-semibold px-8 py-3 rounded-lg hover:shadow-xl hover:shadow-security-gold/30 transition-all duration-300 transform hover:scale-105">
-              Découvrir nos Services
+              Discover Our Services
             </button>
           </div>
         </div>

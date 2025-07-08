@@ -19,61 +19,61 @@ const Services = () => {
     {
       icon: Shield,
       title: "Executive Protection",
-      description: "Services de protection rapprochée pour dirigeants et personnalités",
+      description: "Close protection services for executives and high-profile individuals",
       color: "from-security-gold to-security-silver"
     },
     {
       icon: Users,
       title: "Close Protection",
-      description: "Protection personnelle discrète et professionnelle",
+      description: "Discreet and professional personal protection services",
       color: "from-security-silver to-security-gold"
     },
     {
       icon: Calendar,
       title: "Events Security",
-      description: "Sécurisation d'événements privés et corporatifs",
+      description: "Security services for private and corporate events",
       color: "from-security-gold to-security-silver"
     },
     {
       icon: Crown,
-      title: "VIPs Bodyguard",
-      description: "Garde du corps spécialisé pour personnalités VIP",
+      title: "VIP Bodyguard",
+      description: "Specialized bodyguard services for VIP personalities",
       color: "from-security-silver to-security-gold"
     },
     {
       icon: Bell,
       title: "VIP Concierge",
-      description: "Services de conciergerie haut de gamme",
+      description: "Premium concierge services for high-end clients",
       color: "from-security-gold to-security-silver"
     },
     {
       icon: Search,
       title: "Private Investigation",
-      description: "Enquêtes privées et investigations discrètes",
+      description: "Discreet private investigations and intelligence gathering",
       color: "from-security-silver to-security-gold"
     },
     {
       icon: AlertTriangle,
       title: "Risk Assessment",
-      description: "Évaluation et contrôle des risques sécuritaires",
+      description: "Security risk evaluation and threat analysis",
       color: "from-security-gold to-security-silver"
     },
     {
       icon: Plane,
       title: "Flight Booking",
-      description: "Réservation de vols privés et commerciaux",
+      description: "Private and commercial flight booking services",
       color: "from-security-silver to-security-gold"
     },
     {
       icon: Car,
       title: "Secure Transportation",
-      description: "Transport sécurisé avec chauffeurs professionnels",
+      description: "Secure transport with professional drivers",
       color: "from-security-gold to-security-silver"
     },
     {
       icon: Hotel,
       title: "Travel Services",
-      description: "Location de véhicules et réservation d'hôtels",
+      description: "Vehicle rental and hotel booking services",
       color: "from-security-silver to-security-gold"
     }
   ];
@@ -84,13 +84,13 @@ const Services = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-white mb-6">
-            Nos Services{' '}
+            Our Professional{' '}
             <span className="bg-gradient-to-r from-security-gold to-security-silver bg-clip-text text-transparent">
-              Professionnels
+              Services
             </span>
           </h2>
           <p className="font-roboto text-xl text-gray-300 max-w-3xl mx-auto">
-            Une gamme complète de services de sécurité adaptés à vos besoins spécifiques
+            A complete range of security services tailored to your specific needs
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-security-gold to-security-silver mx-auto mt-6"></div>
         </div>
@@ -124,13 +124,13 @@ const Services = () => {
         <div className="text-center mt-16">  
           <div className="bg-gradient-to-r from-security-gold/10 to-security-silver/10 p-8 rounded-2xl border border-security-gold/20">
             <h3 className="font-montserrat font-bold text-2xl text-white mb-4">
-              Excellence en sécurité professionnelle
+              Excellence in Professional Security
             </h3>
             <p className="font-roboto text-gray-300 mb-6">
-              Découvrez nos solutions de sécurité sur mesure adaptées à vos besoins
+              Discover our tailored security solutions adapted to your needs
             </p>
             <button className="bg-gradient-to-r from-security-gold to-security-silver text-security-dark font-montserrat font-semibold px-8 py-3 rounded-lg hover:shadow-xl hover:shadow-security-gold/30 transition-all duration-300 transform hover:scale-105">
-              Découvrir nos Solutions
+              Discover Our Solutions
             </button>
           </div>
         </div>

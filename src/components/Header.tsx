@@ -8,11 +8,11 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { name: 'Accueil', href: '#hero' },
+    { name: 'Home', href: '#hero' },
     { name: 'Services', href: '#services' },
-    { name: 'À propos', href: '#about' },
-    { name: 'Équipe', href: '#team' },
-    { name: 'Galerie', href: '#gallery' }
+    { name: 'About', href: '#about' },
+    { name: 'Team', href: '#team' },
+    { name: 'Gallery', href: '#gallery' }
   ];
 
   return (
@@ -26,7 +26,7 @@ const Header = () => {
             </div>
             <div>
               <h1 className="font-montserrat font-bold text-xl text-white">
-                Ultra Professionnel
+                Ultra Professional
               </h1>
               <p className="font-roboto text-sm text-security-gold">Protection</p>
             </div>

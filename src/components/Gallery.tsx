@@ -20,69 +20,69 @@ const Gallery = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
 
   const categories = [
-    { id: 'all', name: 'Tout', icon: Eye },
+    { id: 'all', name: 'All', icon: Eye },
     { id: 'protection', name: 'Protection', icon: Shield },
     { id: 'transport', name: 'Transport', icon: Car },
-    { id: 'events', name: 'Événements', icon: Calendar },
-    { id: 'training', name: 'Formation', icon: GraduationCap }
+    { id: 'events', name: 'Events', icon: Calendar },
+    { id: 'training', name: 'Training', icon: GraduationCap }
   ];
 
   const galleryItems = [
     {
       id: 1,
-      title: "Équipe de Protection VIP",
+      title: "VIP Protection Team",
       category: "protection",
       image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=600&h=400&fit=crop",
-      description: "Équipe de protection rapprochée en mission"
+      description: "Professional bodyguard team in action"
     },
     {
       id: 2,
-      title: "Transport Sécurisé",
+      title: "Secure Transportation",
       category: "transport", 
-      image: "https://images.unsplash.com/photo-1466721591366-2d5fba72006d?w=600&h=400&fit=crop",
-      description: "Véhicules blindés pour transport VIP"
+      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
+      description: "Armored vehicles for VIP transport"
     },
     {
       id: 3,
-      title: "Sécurisation d'Événement",
+      title: "Event Security",
       category: "events",
-      image: "https://images.unsplash.com/photo-1493962853295-0fd70327578a?w=600&h=400&fit=crop",
-      description: "Sécurité lors d'événements corporatifs"
+      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=600&h=400&fit=crop",
+      description: "Security monitoring during corporate events"
     },
     {
       id: 4,
-      title: "Formation Tactique",
+      title: "Tactical Training",
       category: "training",
-      image: "https://images.unsplash.com/photo-1518877593221-1f28583780b4?w=600&h=400&fit=crop",
-      description: "Entraînement des équipes de sécurité"
+      image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=600&h=400&fit=crop",
+      description: "Security team tactical training session"
     },
     {
       id: 5,
-      title: "Protection Discrète",
+      title: "Discreet Protection",
       category: "protection",
       image: "https://images.unsplash.com/photo-1439886183900-e79ec0057170?w=600&h=400&fit=crop",
-      description: "Surveillance et protection discrète"
+      description: "Surveillance and discreet protection"
     },
     {
       id: 6,
-      title: "Équipements Professionnels",
+      title: "Professional Equipment",
       category: "training",
       image: "https://images.unsplash.com/photo-1465379944081-7f47de8d74ac?w=600&h=400&fit=crop",
-      description: "Matériel de sécurité professionnel"
+      description: "Professional security equipment"
     },
     {
       id: 7,
-      title: "Escorte Sécurisée",
+      title: "Secure Escort",
       category: "transport",
       image: "https://images.unsplash.com/photo-1485833077593-4278bba3f11f?w=600&h=400&fit=crop",
-      description: "Escorte et accompagnement sécurisé"
+      description: "Secure escort and accompaniment service"
     },
     {
       id: 8,
-      title: "Événement International",
+      title: "International Event",
       category: "events",
       image: "https://images.unsplash.com/photo-1469041797191-50ace28483c3?w=600&h=400&fit=crop",
-      description: "Sécurité pour événements internationaux"
+      description: "Security for international events"
     }
   ];
 
@@ -96,13 +96,13 @@ const Gallery = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-white mb-6">
-            Notre Expertise en{' '}
+            Our Expertise in{' '}
             <span className="bg-gradient-to-r from-security-gold to-security-silver bg-clip-text text-transparent">
-              Images
+              Action
             </span>
           </h2>
           <p className="font-roboto text-xl text-gray-300 max-w-3xl mx-auto">
-            Découvrez notre savoir-faire à travers nos missions et formations
+            Discover our expertise through our missions and training programs
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-security-gold to-security-silver mx-auto mt-6"></div>
         </div>
@@ -145,7 +145,7 @@ const Gallery = () => {
                       <div className="absolute inset-0 bg-gradient-to-t from-security-dark/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                         <div className="p-4 w-full">
                           <Camera className="h-6 w-6 text-security-gold mb-2" />
-                          <p className="text-white text-sm">Cliquer pour agrandir</p>
+                          <p className="text-white text-sm">Click to enlarge</p>
                         </div>
                       </div>
                       <Badge 
@@ -186,13 +186,13 @@ const Gallery = () => {
                     </p>
                     <div className="pt-4">
                       <h4 className="font-montserrat font-semibold text-security-gold mb-2">
-                        Caractéristiques
+                        Features
                       </h4>
                       <ul className="space-y-2 text-gray-300 text-sm">
-                        <li>• Protection discrète et professionnelle</li>
-                        <li>• Équipe hautement qualifiée</li>
-                        <li>• Matériel de pointe</li>
-                        <li>• Confidentialité absolue</li>
+                        <li>• Discreet and professional protection</li>
+                        <li>• Highly qualified team</li>
+                        <li>• State-of-the-art equipment</li>
+                        <li>• Absolute confidentiality</li>
                       </ul>
                     </div>
                   </div>
@@ -205,8 +205,8 @@ const Gallery = () => {
         {/* Bottom Text */}
         <div className="text-center mt-16">
           <p className="font-roboto text-gray-300 max-w-2xl mx-auto">
-            Toutes nos images respectent la confidentialité de nos clients. 
-            Les visages et détails sensibles sont volontairement floutés pour préserver l'anonymat.
+            All our images respect client confidentiality. 
+            Faces and sensitive details are intentionally blurred to preserve anonymity.
           </p>
         </div>
       </div>
