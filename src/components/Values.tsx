@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { Activity, Integrity, Eye, Target } from 'lucide-react';
+import { Activity, Shield, Eye, Target } from 'lucide-react';
 
 const Values = () => {
   const values = [
@@ -12,7 +11,7 @@ const Values = () => {
       gradient: "from-security-gold to-security-silver"
     },
     {
-      icon: Integrity,
+      icon: Shield,
       title: "Our Integrity",
       content: "Ultra Professional Protection is committed to transparency and honesty, operating with unwavering integrity. We work to build trust with our clients and treat everyone with respect.",
       gradient: "from-security-silver to-security-gold"

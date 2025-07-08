@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { 
@@ -6,7 +5,7 @@ import {
   Users, 
   Calendar, 
   Crown, 
-  Concierge, 
+  Bell, 
   Search, 
   AlertTriangle, 
   Plane, 
@@ -41,7 +40,7 @@ const Services = () => {
       color: "from-security-silver to-security-gold"
     },
     {
-      icon: Concierge,
+      icon: Bell,
       title: "VIP Concierge",
       description: "Services de conciergerie haut de gamme",
       color: "from-security-gold to-security-silver"
