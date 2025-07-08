@@ -7,7 +7,6 @@ import Services from '@/components/Services';
 import CEOProfile from '@/components/CEOProfile';
 import Values from '@/components/Values';
 import Gallery from '@/components/Gallery';
-import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -20,7 +19,6 @@ const Index = () => {
       <CEOProfile />
       <Values />
       <Gallery />
-      <Contact />
       <Footer />
     </div>
   );

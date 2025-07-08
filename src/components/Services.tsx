@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { 
@@ -120,16 +121,16 @@ const Services = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="text-center mt-16">
+        <div className="text-center mt-16">  
           <div className="bg-gradient-to-r from-security-gold/10 to-security-silver/10 p-8 rounded-2xl border border-security-gold/20">
             <h3 className="font-montserrat font-bold text-2xl text-white mb-4">
-              Besoin d'une consultation personnalisée ?
+              Excellence en sécurité professionnelle
             </h3>
             <p className="font-roboto text-gray-300 mb-6">
-              Contactez-nous pour une évaluation gratuite de vos besoins en sécurité
+              Découvrez nos solutions de sécurité sur mesure adaptées à vos besoins
             </p>
             <button className="bg-gradient-to-r from-security-gold to-security-silver text-security-dark font-montserrat font-semibold px-8 py-3 rounded-lg hover:shadow-xl hover:shadow-security-gold/30 transition-all duration-300 transform hover:scale-105">
-              Demander un Devis
+              Découvrir nos Solutions
             </button>
           </div>
         </div>

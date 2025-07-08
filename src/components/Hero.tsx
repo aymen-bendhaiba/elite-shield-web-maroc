@@ -9,7 +9,7 @@ const Hero = () => {
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
-          backgroundImage: `radial-gradient(circle at 50% 50%, #d4af37 1px, transparent 1px)`,
+          background: `radial-gradient(circle at 50% 50%, #d4af37 1px, transparent 1px)`,
           backgroundSize: '60px 60px'
         }}></div>
       </div>
@@ -56,13 +56,6 @@ const Hero = () => {
               >
                 <Shield className="mr-2 h-5 w-5" />
                 Nos Services
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="border-2 border-security-gold text-security-gold hover:bg-security-gold hover:text-security-dark font-montserrat font-semibold text-lg px-8 py-4 transition-all duration-300"
-              >
-                Contact
               </Button>
             </div>
           </div>

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, Shield, Phone, Mail } from 'lucide-react';
+import { Menu, Shield } from 'lucide-react';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,8 +12,7 @@ const Header = () => {
     { name: 'Services', href: '#services' },
     { name: 'À propos', href: '#about' },
     { name: 'Équipe', href: '#team' },
-    { name: 'Galerie', href: '#gallery' },
-    { name: 'Contact', href: '#contact' }
+    { name: 'Galerie', href: '#gallery' }
   ];
 
   return (
@@ -47,17 +46,6 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* Contact Info & CTA */}
-          <div className="hidden lg:flex items-center space-x-4">
-            <div className="flex items-center space-x-2 text-security-gold text-sm">
-              <Phone className="h-4 w-4" />
-              <span>24h/7j</span>
-            </div>
-            <Button className="bg-gradient-to-r from-security-gold to-security-silver text-security-dark font-montserrat font-semibold hover:shadow-lg hover:shadow-security-gold/20 transition-all duration-300">
-              Contact Urgent
-            </Button>
-          </div>
-
           {/* Mobile Menu */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild className="lg:hidden">
@@ -77,9 +65,6 @@ const Header = () => {
                     {item.name}
                   </a>
                 ))}
-                <Button className="bg-gradient-to-r from-security-gold to-security-silver text-security-dark font-montserrat font-semibold mt-6">
-                  Contact Urgent
-                </Button>
               </div>
             </SheetContent>
           </Sheet>
