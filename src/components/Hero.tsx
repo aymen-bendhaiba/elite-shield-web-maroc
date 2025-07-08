@@ -8,7 +8,10 @@ const Hero = () => {
     <section id="hero" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-security-dark via-security-charcoal to-security-navy overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" fillRule=\"evenodd\"><g fill=\"%23d4af37\" fillOpacity=\"0.1\"><circle cx=\"30\" cy=\"30\" r=\"2\"/></g></g></svg>')]"></div>
+        <div className="absolute inset-0" style={{
+          backgroundImage: `radial-gradient(circle at 50% 50%, #d4af37 1px, transparent 1px)`,
+          backgroundSize: '60px 60px'
+        }}></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
