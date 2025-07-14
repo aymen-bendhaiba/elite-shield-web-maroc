@@ -3,6 +3,21 @@ import React from 'react';
 import { Shield, Globe, Award, Eye } from 'lucide-react';
 
 const About = () => {
+  const cities = [
+    { name: 'Casablanca', image: 'https://images.unsplash.com/photo-1466442929976-97f336a657be?w=300&h=200&fit=crop' },
+    { name: 'Fez', image: 'https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=300&h=200&fit=crop' },
+    { name: 'Tangier', image: 'https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?w=300&h=200&fit=crop' },
+    { name: 'Marrakesh', image: 'https://images.unsplash.com/photo-1527576539890-dfa815648363?w=300&h=200&fit=crop' },
+    { name: 'Salé', image: 'https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?w=300&h=200&fit=crop' },
+    { name: 'Meknes', image: 'https://images.unsplash.com/photo-1460574283810-2aab119d8511?w=300&h=200&fit=crop' },
+    { name: 'Rabat', image: 'https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=300&h=200&fit=crop' },
+    { name: 'Oujda', image: 'https://images.unsplash.com/photo-1466442929976-97f336a657be?w=300&h=200&fit=crop' },
+    { name: 'Kenitra', image: 'https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=300&h=200&fit=crop' },
+    { name: 'Agadir', image: 'https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?w=300&h=200&fit=crop' },
+    { name: 'Essaouira', image: 'https://images.unsplash.com/photo-1527576539890-dfa815648363?w=300&h=200&fit=crop' },
+    { name: 'Oualidia', image: 'https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?w=300&h=200&fit=crop' }
+  ];
+
   return (
     <section id="about" className="py-20 bg-gradient-to-b from-security-charcoal to-security-navy">
       <div className="container mx-auto px-4">
@@ -38,11 +53,11 @@ const About = () => {
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
                   <Shield className="h-12 w-12 text-security-gold mx-auto mb-3" />
-                  <h3 className="font-montserrat font-semibold text-white">Protection d'élite</h3>
+                  <h3 className="font-montserrat font-semibold text-white">Elite Protection</h3>
                 </div>
                 <div className="text-center">
                   <Globe className="h-12 w-12 text-security-gold mx-auto mb-3" />
-                  <h3 className="font-montserrat font-semibold text-white">Couverture nationale</h3>
+                  <h3 className="font-montserrat font-semibold text-white">National Coverage</h3>
                 </div>
                 <div className="text-center">
                   <Award className="h-12 w-12 text-security-gold mx-auto mb-3" />
@@ -50,7 +65,7 @@ const About = () => {
                 </div>
                 <div className="text-center">
                   <Eye className="h-12 w-12 text-security-gold mx-auto mb-3" />
-                  <h3 className="font-montserrat font-semibold text-white">Discrétion absolue</h3>
+                  <h3 className="font-montserrat font-semibold text-white">Absolute Discretion</h3>
                 </div>
               </div>
             </div>
@@ -73,13 +88,22 @@ const About = () => {
               solutions that address the unique challenges and risks associated with each region.
             </p>
             
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center">
-              {[
-                'Casablanca', 'Fez', 'Tangier', 'Marrakesh', 'Salé', 'Meknes', 
-                'Rabat', 'Oujda', 'Kenitra', 'Agadir', 'Essaouira', 'Oualidia'
-              ].map((city) => (
-                <div key={city} className="bg-security-charcoal/50 p-3 rounded-lg border border-security-gold/10">
-                  <p className="font-roboto text-security-gold text-sm">{city}</p>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+              {cities.map((city) => (
+                <div key={city.name} className="group relative overflow-hidden rounded-xl border border-security-gold/20 hover:border-security-gold/50 transition-all duration-300">
+                  <div className="relative h-32 overflow-hidden">
+                    <img
+                      src={city.image}
+                      alt={city.name}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-security-dark/80 via-security-dark/20 to-transparent"></div>
+                    <div className="absolute bottom-0 left-0 right-0 p-3">
+                      <h4 className="font-montserrat font-semibold text-white text-sm group-hover:text-security-gold transition-colors duration-300">
+                        {city.name}
+                      </h4>
+                    </div>
+                  </div>
                 </div>
               ))}
             </div>
