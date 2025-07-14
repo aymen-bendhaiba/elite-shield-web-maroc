@@ -30,59 +30,73 @@ const Gallery = () => {
   const galleryItems = [
     {
       id: 1,
-      title: "VIP Protection Team",
-      category: "protection",
-      image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=600&h=400&fit=crop",
-      description: "Professional bodyguard team in action"
+      title: "Executive VIP Transport",
+      category: "transport",
+      image: "/lovable-uploads/ab1e0f5f-9c5b-4c48-b115-383a84a1c2f2.png",
+      description: "Premium luxury vehicle with professional security driver"
     },
     {
       id: 2,
-      title: "Secure Transportation",
-      category: "transport", 
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
-      description: "Armored vehicles for VIP transport"
+      title: "Elite Protection Service",
+      category: "protection", 
+      image: "/lovable-uploads/fee073ba-2b95-40fa-8b0c-d144acb2cb21.png",
+      description: "High-end executive protection at exclusive venues"
     },
     {
       id: 3,
-      title: "Event Security",
-      category: "events",
-      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=600&h=400&fit=crop",
-      description: "Security monitoring during corporate events"
+      title: "Professional Security Detail",
+      category: "protection",
+      image: "/lovable-uploads/cd95aa62-a29c-4fb6-8f85-bed66373c02f.png",
+      description: "Discreet close protection in scenic locations"
     },
     {
       id: 4,
-      title: "Tactical Training",
-      category: "training",
-      image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=600&h=400&fit=crop",
-      description: "Security team tactical training session"
+      title: "Personal Security Officer",
+      category: "protection",
+      image: "/lovable-uploads/8cbb884d-59e5-4139-ae04-f690d2250f82.png",
+      description: "Professional bodyguard ready for immediate response"
     },
     {
       id: 5,
-      title: "Discreet Protection",
-      category: "protection",
-      image: "https://images.unsplash.com/photo-1439886183900-e79ec0057170?w=600&h=400&fit=crop",
-      description: "Surveillance and discreet protection"
+      title: "Film Set Security",
+      category: "events",
+      image: "/lovable-uploads/337850b4-3f4d-4cb8-8571-eb3d403aba2c.png",
+      description: "Specialized security for film production and media events"
     },
     {
       id: 6,
-      title: "Professional Equipment",
-      category: "training",
-      image: "https://images.unsplash.com/photo-1465379944081-7f47de8d74ac?w=600&h=400&fit=crop",
-      description: "Professional security equipment"
+      title: "Luxury Ground Transport",
+      category: "transport",
+      image: "/lovable-uploads/c58bc254-8b2f-4f8f-952e-7a3376376851.png",
+      description: "Premium fleet with private jet coordination"
     },
     {
       id: 7,
-      title: "Secure Escort",
-      category: "transport",
-      image: "https://images.unsplash.com/photo-1485833077593-4278bba3f11f?w=600&h=400&fit=crop",
-      description: "Secure escort and accompaniment service"
+      title: "Location Security",
+      category: "events",
+      image: "/lovable-uploads/c7f49951-f9d8-42a3-b175-d10b154d56c0.png",
+      description: "Professional security for outdoor events and filming"
     },
     {
       id: 8,
-      title: "International Event",
-      category: "events",
-      image: "https://images.unsplash.com/photo-1469041797191-50ace28483c3?w=600&h=400&fit=crop",
-      description: "Security for international events"
+      title: "Airport VIP Service",
+      category: "transport",
+      image: "/lovable-uploads/17f7106f-0b7f-49bc-b84b-ae25a68b4e18.png",
+      description: "Secure transport coordination with private aviation"
+    },
+    {
+      id: 9,
+      title: "Coastal Security Detail",
+      category: "training",
+      image: "/lovable-uploads/e487020a-db15-416f-9933-ada8fb7c51a1.png",
+      description: "Specialized training and security in coastal environments"
+    },
+    {
+      id: 10,
+      title: "Executive Sedan Service",
+      category: "transport",
+      image: "/lovable-uploads/9e3861fb-4944-4d34-8bd6-d282ae514ded.png",
+      description: "Professional chauffeur and security driver service"
     }
   ];
 
