@@ -52,13 +52,15 @@ const CEOProfile = () => {
                 {/* Photo and Basic Info */}
                 <div className="bg-gradient-to-br from-security-gold/10 to-security-silver/10 p-8 lg:p-12 flex flex-col justify-center">
                   <div className="text-center mb-8">
-                    <div className="w-48 h-48 mx-auto mb-6 bg-gradient-to-br from-security-gold to-security-silver rounded-full flex items-center justify-center">
-                      <div className="w-44 h-44 bg-security-charcoal rounded-full flex items-center justify-center">
-                        <Crown className="h-24 w-24 text-security-gold" />
-                      </div>
+                    <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-security-gold">
+                      <img 
+                        src="/lovable-uploads/eadcb882-efdf-4d80-b0ca-070e04c10068.png" 
+                        alt="Hassane Outikni - CEO"
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                     <h3 className="font-montserrat font-bold text-3xl text-white mb-2">
-                      Hasssane Outikni
+                      Hassane Outikni
                     </h3>
                     <p className="font-roboto text-xl text-security-gold mb-2">
                       CEO and Founder
