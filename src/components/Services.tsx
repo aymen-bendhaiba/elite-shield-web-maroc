@@ -119,21 +119,6 @@ const Services = () => {
             );
           })}
         </div>
-
-        {/* Call to Action */}
-        <div className="text-center mt-16">  
-          <div className="bg-gradient-to-r from-security-gold/10 to-security-silver/10 p-8 rounded-2xl border border-security-gold/20">
-            <h3 className="font-montserrat font-bold text-2xl text-white mb-4">
-              Excellence in Professional Security
-            </h3>
-            <p className="font-roboto text-gray-300 mb-6">
-              Discover our tailored security solutions adapted to your needs
-            </p>
-            <button className="bg-gradient-to-r from-security-gold to-security-silver text-security-dark font-montserrat font-semibold px-8 py-3 rounded-lg hover:shadow-xl hover:shadow-security-gold/30 transition-all duration-300 transform hover:scale-105">
-              Discover Our Solutions
-            </button>
-          </div>
-        </div>
       </div>
     </section>
   );
