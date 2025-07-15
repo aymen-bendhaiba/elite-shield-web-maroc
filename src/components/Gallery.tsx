@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -97,6 +96,20 @@ const Gallery = () => {
       category: "transport",
       image: "/lovable-uploads/9e3861fb-4944-4d34-8bd6-d282ae514ded.png",
       description: "Professional chauffeur and security driver service"
+    },
+    {
+      id: 11,
+      title: "VIP Corporate Security",
+      category: "protection",
+      image: "/lovable-uploads/ed892436-36a3-4185-9bd4-0023fdbd2761.png",
+      description: "Executive protection services for corporate events and venues"
+    },
+    {
+      id: 12,
+      title: "Premium Transport Service",
+      category: "transport",
+      image: "/lovable-uploads/fa392567-9d21-4bb4-9e86-68744cf3b386.png",
+      description: "Luxury vehicle fleet for secure transportation services"
     }
   ];
 
