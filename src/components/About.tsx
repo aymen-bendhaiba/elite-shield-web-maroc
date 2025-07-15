@@ -4,7 +4,7 @@ import { Shield, Globe, Award, Eye } from 'lucide-react';
 
 const About = () => {
   const cities = [
-    { name: 'Casablanca', image: 'https://images.unsplash.com/photo-1466442929976-97f336a657be?w=300&h=200&fit=crop' },
+    { name: 'Casablanca', image: '/lovable-uploads/469feb4d-d7ae-4cc5-995f-4527a0f812a9.png' },
     { name: 'Fez', image: 'https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=300&h=200&fit=crop' },
     { name: 'Tangier', image: 'https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?w=300&h=200&fit=crop' },
     { name: 'Marrakesh', image: 'https://images.unsplash.com/photo-1527576539890-dfa815648363?w=300&h=200&fit=crop' },

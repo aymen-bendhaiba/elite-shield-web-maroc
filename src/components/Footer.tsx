@@ -72,14 +72,19 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-security-gold flex-shrink-0" />
-                <span className="font-roboto text-sm text-gray-300">
-                  +212 [À compléter]
-                </span>
+                <div className="flex flex-col space-y-1">
+                  <span className="font-roboto text-sm text-gray-300">
+                    +212 613 036 746
+                  </span>
+                  <span className="font-roboto text-sm text-gray-300">
+                    +212 661 317 454
+                  </span>
+                </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-security-gold flex-shrink-0" />
                 <span className="font-roboto text-sm text-gray-300">
-                  contact@ultraprotection.ma
+                  hassane.outikni@gmail.com
                 </span>
               </div>
               <div className="flex items-center space-x-3">
