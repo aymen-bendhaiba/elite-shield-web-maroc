@@ -14,7 +14,7 @@ const About = () => {
     { name: 'Kenitra', image: '/lovable-uploads/1c21acd9-2bfb-4285-bbc5-5b15f3655a18.png' },
     { name: 'Agadir', image: '/lovable-uploads/40a974cf-6956-4440-a2b2-81c60a92bb4d.png' },
     { name: 'Essaouira', image: '/lovable-uploads/2131775e-c6ab-48e9-a4c6-090c767668e7.png' },
-    { name: 'Oualidia', image: '/lovable-uploads/2131775e-c6ab-48e9-a4c6-090c767668e7.png' }
+    { name: 'Oualidia', image: '/lovable-uploads/32cc8ba1-b671-4b1f-a90d-a0f33f93ec06.png' }
   ];
 
   return (
