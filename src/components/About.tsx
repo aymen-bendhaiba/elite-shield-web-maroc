@@ -1,21 +1,20 @@
-
 import React from 'react';
 import { Shield, Globe, Award, Eye } from 'lucide-react';
 
 const About = () => {
   const cities = [
     { name: 'Casablanca', image: '/lovable-uploads/469feb4d-d7ae-4cc5-995f-4527a0f812a9.png' },
-    { name: 'Fez', image: 'https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=300&h=200&fit=crop' },
-    { name: 'Tangier', image: 'https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?w=300&h=200&fit=crop' },
-    { name: 'Marrakesh', image: 'https://images.unsplash.com/photo-1527576539890-dfa815648363?w=300&h=200&fit=crop' },
-    { name: 'Salé', image: 'https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?w=300&h=200&fit=crop' },
-    { name: 'Meknes', image: 'https://images.unsplash.com/photo-1460574283810-2aab119d8511?w=300&h=200&fit=crop' },
-    { name: 'Rabat', image: 'https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=300&h=200&fit=crop' },
-    { name: 'Oujda', image: 'https://images.unsplash.com/photo-1466442929976-97f336a657be?w=300&h=200&fit=crop' },
-    { name: 'Kenitra', image: 'https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=300&h=200&fit=crop' },
-    { name: 'Agadir', image: 'https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?w=300&h=200&fit=crop' },
-    { name: 'Essaouira', image: 'https://images.unsplash.com/photo-1527576539890-dfa815648363?w=300&h=200&fit=crop' },
-    { name: 'Oualidia', image: 'https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?w=300&h=200&fit=crop' }
+    { name: 'Fez', image: '/lovable-uploads/14931bc7-7e93-4c32-a41c-ed782ccee274.png' },
+    { name: 'Tangier', image: '/lovable-uploads/fdea4c2f-0250-4794-88ba-a6cb571dff3f.png' },
+    { name: 'Marrakesh', image: '/lovable-uploads/bc8cd599-2eed-462c-8557-5350b3475212.png' },
+    { name: 'Salé', image: '/lovable-uploads/85808eb9-d589-48e8-884f-87d4b449ee37.png' },
+    { name: 'Meknes', image: '/lovable-uploads/8eacd30c-528d-48f3-b4f0-99c7d9d55a37.png' },
+    { name: 'Rabat', image: '/lovable-uploads/d119593c-b56a-46a4-b586-c5a66de2d66d.png' },
+    { name: 'Oujda', image: '/lovable-uploads/d32c245a-4a92-49c8-9d8e-f0dd707b24ca.png' },
+    { name: 'Kenitra', image: '/lovable-uploads/1c21acd9-2bfb-4285-bbc5-5b15f3655a18.png' },
+    { name: 'Agadir', image: '/lovable-uploads/40a974cf-6956-4440-a2b2-81c60a92bb4d.png' },
+    { name: 'Essaouira', image: '/lovable-uploads/2131775e-c6ab-48e9-a4c6-090c767668e7.png' },
+    { name: 'Oualidia', image: '/lovable-uploads/2131775e-c6ab-48e9-a4c6-090c767668e7.png' }
   ];
 
   return (
