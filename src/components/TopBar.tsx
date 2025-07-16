@@ -12,7 +12,7 @@ const TopBar = () => {
   ];
 
   return (
-    <div className="bg-security-charcoal border-b border-security-gold/20 py-2">
+    <div className="fixed top-0 w-full z-50 bg-security-charcoal border-b border-security-gold/20 py-2">
       <div className="container mx-auto px-4">
         <div className="flex flex-col sm:flex-row justify-between items-center space-y-2 sm:space-y-0">
           {/* Languages */}

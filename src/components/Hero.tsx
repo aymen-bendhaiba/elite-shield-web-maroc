@@ -5,7 +5,7 @@ import { Shield, ArrowRight } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-security-navy via-security-charcoal to-security-dark overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-security-navy via-security-charcoal to-security-dark overflow-hidden pt-32">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-20 w-32 h-32 border border-security-gold rounded-full"></div>
