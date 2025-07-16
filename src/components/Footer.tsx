@@ -156,19 +156,19 @@ const Footer = () => {
                   href="#"
                   className="w-10 h-10 bg-security-charcoal rounded-full flex items-center justify-center hover:bg-security-gold hover:text-security-dark transition-all duration-300"
                 >
-                  <Facebook className="h-5 w-5" />
+                  <Facebook className="h-5 w-5 text-security-gold hover:text-security-dark" />
                 </a>
                 <a
                   href="#"
                   className="w-10 h-10 bg-security-charcoal rounded-full flex items-center justify-center hover:bg-security-gold hover:text-security-dark transition-all duration-300"
                 >
-                  <Instagram className="h-5 w-5" />
+                  <Instagram className="h-5 w-5 text-security-gold hover:text-security-dark" />
                 </a>
                 <a
                   href="#"
                   className="w-10 h-10 bg-security-charcoal rounded-full flex items-center justify-center hover:bg-security-gold hover:text-security-dark transition-all duration-300"
                 >
-                  <Linkedin className="h-5 w-5" />
+                  <Linkedin className="h-5 w-5 text-security-gold hover:text-security-dark" />
                 </a>
               </div>
             </div>
