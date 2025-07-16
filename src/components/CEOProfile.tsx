@@ -19,9 +19,11 @@ const CEOProfile = () => {
               
               <div className="text-center mb-8">
                 <div className="w-32 h-32 mx-auto bg-gradient-to-br from-security-gold to-security-silver rounded-full p-1 mb-6">
-                  <div className="w-full h-full bg-security-charcoal rounded-full flex items-center justify-center">
-                    <div className="text-4xl font-bold text-security-gold">HO</div>
-                  </div>
+                  <img 
+                    src="/lovable-uploads/aef18779-6337-46f9-84bd-77a373412da5.png" 
+                    alt="Hassane Outikni"
+                    className="w-full h-full object-cover rounded-full"
+                  />
                 </div>
                 
                 <h3 className="font-montserrat font-bold text-2xl text-white mb-2">

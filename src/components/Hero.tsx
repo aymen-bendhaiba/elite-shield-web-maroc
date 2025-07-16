@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Shield, ArrowRight, Phone } from 'lucide-react';
+import { Shield, ArrowRight } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -54,8 +54,8 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+          {/* CTA Button */}
+          <div className="flex justify-center mb-12">
             <a href="#services">
               <Button 
                 size="lg" 
@@ -63,17 +63,6 @@ const Hero = () => {
               >
                 Our Services
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
-            </a>
-            
-            <a href="tel:+212613036746">
-              <Button 
-                variant="outline" 
-                size="lg"
-                className="border-2 border-security-gold text-security-gold hover:bg-security-gold hover:text-security-dark font-montserrat font-semibold transition-all duration-300 hover:scale-105 group"
-              >
-                <Phone className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
-                Contact Urgent
               </Button>
             </a>
           </div>
