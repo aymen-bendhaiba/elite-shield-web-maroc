@@ -15,11 +15,11 @@ import {
 
 const Footer = () => {
   const quickLinks = [
-    { name: 'Accueil', href: '#hero' },
+    { name: 'Home', href: '#hero' },
     { name: 'Services', href: '#services' },
-    { name: 'À propos', href: '#about' },
-    { name: 'Équipe', href: '#team' },
-    { name: 'Galerie', href: '#gallery' },
+    { name: 'About', href: '#about' },
+    { name: 'Team', href: '#team' },
+    { name: 'Gallery', href: '#gallery' },
     { name: 'Contact', href: '#contact' }
   ];
 
@@ -59,15 +59,15 @@ const Footer = () => {
             </div>
             
             <p className="font-roboto text-gray-300 mb-6 leading-relaxed">
-              Votre sécurité est notre priorité. Depuis 2025, nous offrons des services de protection 
-              d'élite avec discrétion et professionnalisme au Maroc.
+              Your security is our priority. Since 2025, we offer elite protection services 
+              with discretion and professionalism in Morocco.
             </p>
 
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-security-gold flex-shrink-0" />
                 <span className="font-roboto text-sm text-gray-300">
-                  Hay el ghofrane n°29, Dakhla, Maroc
+                  Hay el ghofrane n°29, Dakhla, Morocco
                 </span>
               </div>
               <div className="flex items-center space-x-3">
@@ -90,7 +90,7 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Clock className="h-5 w-5 text-security-gold flex-shrink-0" />
                 <span className="font-roboto text-sm text-security-gold">
-                  Service 24h/7j
+                  24/7 Service
                 </span>
               </div>
             </div>
@@ -99,7 +99,7 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h4 className="font-montserrat font-bold text-lg text-white mb-6">
-              Liens Rapides
+              Quick Links
             </h4>
             <ul className="space-y-3">
               {quickLinks.map((link) => (
@@ -118,7 +118,7 @@ const Footer = () => {
           {/* Services */}
           <div>
             <h4 className="font-montserrat font-bold text-lg text-white mb-6">
-              Nos Services
+              Our Services
             </h4>
             <ul className="space-y-3">
               {services.map((service) => (
@@ -149,7 +149,7 @@ const Footer = () => {
 
             <div>
               <h5 className="font-montserrat font-semibold text-white mb-4">
-                Suivez-nous
+                Follow Us
               </h5>
               <div className="flex space-x-4">
                 <a
@@ -182,26 +182,26 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
               <p className="font-roboto text-sm text-gray-400">
-                © 2025 Ultra Professionnel Protection. Tous droits réservés.
+                © 2025 Ultra Professional Protection. All rights reserved.
               </p>
               <div className="flex items-center space-x-4 text-xs">
                 <a href="#" className="text-gray-400 hover:text-security-gold transition-colors">
-                  Politique de confidentialité
+                  Privacy Policy
                 </a>
                 <span className="text-gray-600">•</span>
                 <a href="#" className="text-gray-400 hover:text-security-gold transition-colors">
-                  Mentions légales
+                  Legal Notice
                 </a>
                 <span className="text-gray-600">•</span>
                 <a href="#" className="text-gray-400 hover:text-security-gold transition-colors">
-                  CGV
+                  Terms & Conditions
                 </a>
               </div>
             </div>
             
             <div className="flex items-center space-x-2 text-sm">
               <Globe className="h-4 w-4 text-security-gold" />
-              <span className="text-gray-400">Disponible en:</span>
+              <span className="text-gray-400">Available in:</span>
               <span className="text-security-gold">FR</span>
               <span className="text-gray-400">|</span>
               <span className="text-gray-400">AR</span>

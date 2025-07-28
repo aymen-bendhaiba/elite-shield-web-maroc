@@ -43,7 +43,7 @@ const CEOProfile = () => {
               <div className="grid grid-cols-3 gap-4 mb-6">
                 <div className="text-center">
                   <div className="text-2xl font-bold text-security-gold">18+</div>
-                  <div className="text-xs text-gray-400">Années</div>
+                  <div className="text-xs text-gray-400">Years</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold text-security-gold">24/7</div>
@@ -51,7 +51,7 @@ const CEOProfile = () => {
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold text-security-gold">100%</div>
-                  <div className="text-xs text-gray-400">Discret</div>
+                  <div className="text-xs text-gray-400">Discrete</div>
                 </div>
               </div>
 
@@ -74,15 +74,15 @@ const CEOProfile = () => {
           <div className="space-y-8">
             <div>
               <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-white mb-6">
-                Expert en{' '}
+                Expert in{' '}
                 <span className="bg-gradient-to-r from-security-gold to-security-silver bg-clip-text text-transparent">
-                  Protection Exécutive
+                  Executive Protection
                 </span>
               </h2>
               <p className="font-roboto text-xl text-gray-300 leading-relaxed">
-                Professionnel hautement qualifié en protection exécutive avec 18 années d'expérience 
-                dans la protection de personnalités éminentes, incluant la royauté, les officiels 
-                gouvernementaux et les célébrités internationales.
+                Highly qualified professional in executive protection with 18 years of experience 
+                protecting prominent personalities, including royalty, government officials 
+                and international celebrities.
               </p>
             </div>
 
@@ -90,23 +90,23 @@ const CEOProfile = () => {
             <div className="space-y-6">
               <h3 className="font-montserrat font-bold text-2xl text-white flex items-center">
                 <Users className="h-6 w-6 text-security-gold mr-3" />
-                Expérience Professionnelle
+                Professional Experience
               </h3>
               <div className="space-y-4">
                 <div className="bg-security-dark/50 p-4 rounded-lg border border-security-gold/20">
                   <h4 className="font-montserrat font-semibold text-security-gold mb-2">
-                    Chef de la Protection Exécutive (CPO)
+                    Chief Protection Officer (CPO)
                   </h4>
                   <p className="text-gray-300 text-sm">
-                    Protection d'individus de haut profil, incluant la royauté et les officiels gouvernementaux, pendant 18 ans.
+                    Protection of high-profile individuals, including royalty and government officials, for 18 years.
                   </p>
                 </div>
                 <div className="bg-security-dark/50 p-4 rounded-lg border border-security-gold/20">
                   <h4 className="font-montserrat font-semibold text-security-gold mb-2">
-                    Chauffeur de Sécurité & Agent de Protection Exécutive
+                    Security Driver & Executive Protection Agent
                   </h4>
                   <p className="text-gray-300 text-sm">
-                    Collaboration avec diverses sociétés de production cinématographique pendant 6 ans.
+                    Collaboration with various film production companies for 6 years.
                   </p>
                 </div>
               </div>
@@ -116,32 +116,32 @@ const CEOProfile = () => {
             <div className="space-y-6">
               <h3 className="font-montserrat font-bold text-2xl text-white flex items-center">
                 <Award className="h-6 w-6 text-security-gold mr-3" />
-                Formations & Certifications Spécialisées
+                Specialized Training & Certifications
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 <div className="flex items-center space-x-3 bg-security-dark/30 p-3 rounded-lg">
                   <div className="w-2 h-2 bg-security-gold rounded-full"></div>
-                  <span className="text-gray-300 text-sm">Diplômes PDF Combat A, B, C</span>
+                  <span className="text-gray-300 text-sm">PDF Combat Diplomas A, B, C</span>
                 </div>
                 <div className="flex items-center space-x-3 bg-security-dark/30 p-3 rounded-lg">
                   <div className="w-2 h-2 bg-security-gold rounded-full"></div>
-                  <span className="text-gray-300 text-sm">Carte CPO International</span>
+                  <span className="text-gray-300 text-sm">International CPO Certificate</span>
                 </div>
                 <div className="flex items-center space-x-3 bg-security-dark/30 p-3 rounded-lg">
                   <div className="w-2 h-2 bg-security-gold rounded-full"></div>
-                  <span className="text-gray-300 text-sm">Ceinture Rouge 3ème Grade</span>
+                  <span className="text-gray-300 text-sm">Red Belt 3rd Grade</span>
                 </div>
                 <div className="flex items-center space-x-3 bg-security-dark/30 p-3 rounded-lg">
                   <div className="w-2 h-2 bg-security-gold rounded-full"></div>
-                  <span className="text-gray-300 text-sm">Ceinture Noire Taekwondo</span>
+                  <span className="text-gray-300 text-sm">Taekwondo Black Belt</span>
                 </div>
                 <div className="flex items-center space-x-3 bg-security-dark/30 p-3 rounded-lg">
                   <div className="w-2 h-2 bg-security-gold rounded-full"></div>
-                  <span className="text-gray-300 text-sm">Certificat Coach Taekwondo</span>
+                  <span className="text-gray-300 text-sm">Taekwondo Coach Certificate</span>
                 </div>
                 <div className="flex items-center space-x-3 bg-security-dark/30 p-3 rounded-lg">
                   <div className="w-2 h-2 bg-security-gold rounded-full"></div>
-                  <span className="text-gray-300 text-sm">Certificat Premiers Secours</span>
+                  <span className="text-gray-300 text-sm">First Aid Certificate</span>
                 </div>
               </div>
             </div>
@@ -150,28 +150,28 @@ const CEOProfile = () => {
             <div className="space-y-6">
               <h3 className="font-montserrat font-bold text-2xl text-white flex items-center">
                 <Clock className="h-6 w-6 text-security-gold mr-3" />
-                Compétences Clés
+                Key Skills
               </h3>
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-gradient-to-r from-security-gold to-security-silver rounded-full"></div>
-                  <span className="text-gray-300">Expert en Protection Rapprochée</span>
+                  <span className="text-gray-300">Close Protection Expert</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-gradient-to-r from-security-gold to-security-silver rounded-full"></div>
-                  <span className="text-gray-300">Spécialiste Protection Exécutive</span>
+                  <span className="text-gray-300">Executive Protection Specialist</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-gradient-to-r from-security-gold to-security-silver rounded-full"></div>
-                  <span className="text-gray-300">Manager d'Équipes de Sécurité</span>
+                  <span className="text-gray-300">Security Team Manager</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-gradient-to-r from-security-gold to-security-silver rounded-full"></div>
-                  <span className="text-gray-300">Gestionnaire Sécurité Événements</span>
+                  <span className="text-gray-300">Event Security Manager</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-gradient-to-r from-security-gold to-security-silver rounded-full"></div>
-                  <span className="text-gray-300">Superviseur Groupes de Sécurité</span>
+                  <span className="text-gray-300">Security Group Supervisor</span>
                 </div>
               </div>
             </div>
@@ -183,7 +183,7 @@ const CEOProfile = () => {
                   size="lg" 
                   className="bg-gradient-to-r from-security-gold to-security-silver text-security-dark font-montserrat font-semibold hover:shadow-xl transition-all duration-300 hover:scale-105 group"
                 >
-                  Découvrir Nos Services
+                  Discover Our Services
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </a>

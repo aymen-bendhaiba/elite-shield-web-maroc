@@ -34,23 +34,23 @@ const Hero = () => {
 
           {/* Subtitle */}
           <p className="font-roboto text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Services de protection d'élite au Maroc. Sécurité discrète et professionnelle 
-            pour executives, événements et personnalités de haut niveau.
+            Elite protection services in Morocco. Discreet and professional security 
+            for executives, events and high-profile personalities.
           </p>
 
           {/* Service Highlights */}
           <div className="flex flex-wrap justify-center gap-6 mb-12">
             <div className="flex items-center space-x-2 bg-security-dark/50 px-4 py-2 rounded-full border border-security-gold/30">
               <Shield className="h-5 w-5 text-security-gold" />
-              <span className="font-roboto text-sm text-gray-300">Protection 24h/7j</span>
+              <span className="font-roboto text-sm text-gray-300">24/7 Protection</span>
             </div>
             <div className="flex items-center space-x-2 bg-security-dark/50 px-4 py-2 rounded-full border border-security-gold/30">
               <Shield className="h-5 w-5 text-security-gold" />
-              <span className="font-roboto text-sm text-gray-300">Agents Certifiés</span>
+              <span className="font-roboto text-sm text-gray-300">Certified Agents</span>
             </div>
             <div className="flex items-center space-x-2 bg-security-dark/50 px-4 py-2 rounded-full border border-security-gold/30">
               <Shield className="h-5 w-5 text-security-gold" />
-              <span className="font-roboto text-sm text-gray-300">Discrétion Totale</span>
+              <span className="font-roboto text-sm text-gray-300">Total Discretion</span>
             </div>
           </div>
 
@@ -73,19 +73,19 @@ const Hero = () => {
               <div className="text-3xl md:text-4xl font-montserrat font-bold text-security-gold mb-2">
                 18+
               </div>
-              <p className="font-roboto text-gray-400">Années d'expérience</p>
+              <p className="font-roboto text-gray-400">Years of Experience</p>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-montserrat font-bold text-security-gold mb-2">
                 24/7
               </div>
-              <p className="font-roboto text-gray-400">Disponibilité</p>
+              <p className="font-roboto text-gray-400">Availability</p>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-montserrat font-bold text-security-gold mb-2">
                 100%
               </div>
-              <p className="font-roboto text-gray-400">Confidentiel</p>
+              <p className="font-roboto text-gray-400">Confidential</p>
             </div>
           </div>
         </div>
