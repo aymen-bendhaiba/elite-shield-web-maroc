@@ -12,7 +12,7 @@ const TopBar = () => {
   ];
 
   return (
-    <div className="fixed top-0 w-full z-50 bg-security-charcoal border-b border-security-gold/20 py-2">
+    <div className="fixed top-0 w-full z-50 bg-security-dark/95 backdrop-blur-sm border-b border-security-gold/20 py-2">
       <div className="container mx-auto px-4">
         <div className="flex flex-col sm:flex-row justify-between items-center space-y-2 sm:space-y-0">
           {/* Languages */}
@@ -29,7 +29,7 @@ const TopBar = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="flex items-center space-x-6 text-sm">
+          <div className="flex flex-col sm:flex-row items-center space-y-1 sm:space-y-0 sm:space-x-6 text-sm">
             <a 
               href="mailto:hassane.outikni@gmail.com"
               className="flex items-center space-x-2 text-gray-300 hover:text-security-gold transition-colors"
@@ -38,13 +38,23 @@ const TopBar = () => {
               <span>hassane.outikni@gmail.com</span>
             </a>
             
-            <a 
-              href="tel:+212613036746"
-              className="flex items-center space-x-2 text-gray-300 hover:text-security-gold transition-colors"
-            >
-              <Phone className="h-4 w-4" />
-              <span>+212 613 036 746</span>
-            </a>
+            <div className="flex flex-col sm:flex-row items-center space-y-1 sm:space-y-0 sm:space-x-4">
+              <a 
+                href="tel:+212613036746"
+                className="flex items-center space-x-2 text-gray-300 hover:text-security-gold transition-colors"
+              >
+                <Phone className="h-4 w-4" />
+                <span>+212 613 036 746</span>
+              </a>
+              
+              <a 
+                href="tel:+212522123456"
+                className="flex items-center space-x-2 text-gray-300 hover:text-security-gold transition-colors"
+              >
+                <Phone className="h-4 w-4" />
+                <span>+212 522 123 456</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
