@@ -13,84 +13,87 @@ import {
   Car, 
   Hotel 
 } from 'lucide-react';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 const Services = () => {
+  const { t, isRTL } = useLanguage();
+  
   const services = [
     {
       icon: Shield,
-      title: "Executive Protection",
-      description: "Close protection services for executives and high-profile individuals",
+      titleKey: "services.executiveProtection",
+      descriptionKey: "services.executiveProtectionDesc",
       color: "from-security-gold to-security-silver"
     },
     {
       icon: Users,
-      title: "Close Protection",
-      description: "Discreet and professional personal protection services",
+      titleKey: "services.closeProtection",
+      descriptionKey: "services.closeProtectionDesc",
       color: "from-security-silver to-security-gold"
     },
     {
       icon: Calendar,
-      title: "Events Security",
-      description: "Security services for private and corporate events",
+      titleKey: "services.eventsecurity",
+      descriptionKey: "services.eventsecurityDesc",
       color: "from-security-gold to-security-silver"
     },
     {
       icon: Crown,
-      title: "VIP Bodyguard",
-      description: "Specialized bodyguard services for VIP personalities",
+      titleKey: "services.vipBodyguard",
+      descriptionKey: "services.vipBodyguardDesc",
       color: "from-security-silver to-security-gold"
     },
     {
       icon: Bell,
-      title: "VIP Concierge",
-      description: "Premium concierge services for high-end clients",
+      titleKey: "services.vipConcierge",
+      descriptionKey: "services.vipConciergeDesc",
       color: "from-security-gold to-security-silver"
     },
     {
       icon: Search,
-      title: "Private Investigation",
-      description: "Discreet private investigations and intelligence gathering",
+      titleKey: "services.privateInvestigation",
+      descriptionKey: "services.privateInvestigationDesc",
       color: "from-security-silver to-security-gold"
     },
     {
       icon: AlertTriangle,
-      title: "Risk Assessment",
-      description: "Security risk evaluation and threat analysis",
+      titleKey: "services.riskAssessment",
+      descriptionKey: "services.riskAssessmentDesc",
       color: "from-security-gold to-security-silver"
     },
     {
       icon: Plane,
-      title: "Flight Booking",
-      description: "Private and commercial flight booking services",
+      titleKey: "services.flightBooking",
+      descriptionKey: "services.flightBookingDesc",
       color: "from-security-silver to-security-gold"
     },
     {
       icon: Car,
-      title: "Secure Transportation",
-      description: "Secure transport with professional drivers",
+      titleKey: "services.secureTransportation",
+      descriptionKey: "services.secureTransportationDesc",
       color: "from-security-gold to-security-silver"
     },
     {
       icon: Hotel,
-      title: "Travel Services",
-      description: "Vehicle rental and hotel booking services",
+      titleKey: "services.travelServices",
+      descriptionKey: "services.travelServicesDesc",
       color: "from-security-silver to-security-gold"
     }
   ];
 
   return (
-    <section id="services" className="py-20 bg-gradient-to-b from-security-navy to-security-charcoal">
+    <section id="services" className={`py-20 bg-gradient-to-b from-security-navy to-security-charcoal ${isRTL ? 'rtl' : ''}`}>
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-white mb-6">
-            Our Professional{' '}
+            {t('services.title')}{' '}
             <span className="bg-gradient-to-r from-security-gold to-security-silver bg-clip-text text-transparent">
-              Services
+              {t('services.titleHighlight')}
             </span>
           </h2>
           <p className="font-roboto text-xl text-gray-300 max-w-3xl mx-auto">
-            A complete range of security services tailored to your specific needs
+            {t('services.description')}
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-security-gold to-security-silver mx-auto mt-6"></div>
         </div>
@@ -109,10 +112,10 @@ const Services = () => {
                     <IconComponent className="h-8 w-8 text-security-dark" />
                   </div>
                   <h3 className="font-montserrat font-semibold text-lg text-white mb-3 group-hover:text-security-gold transition-colors duration-300">
-                    {service.title}
+                    {t(service.titleKey)}
                   </h3>
                   <p className="font-roboto text-sm text-gray-300 leading-relaxed">
-                    {service.description}
+                    {t(service.descriptionKey)}
                   </p>
                 </CardContent>
               </Card>

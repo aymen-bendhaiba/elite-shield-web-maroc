@@ -2,10 +2,13 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Shield, ArrowRight } from 'lucide-react';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 const Hero = () => {
+  const { t, isRTL } = useLanguage();
+  
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-security-navy via-security-charcoal to-security-dark overflow-hidden pt-32">
+    <section id="hero" className={`relative min-h-screen flex items-center justify-center bg-gradient-to-br from-security-navy via-security-charcoal to-security-dark overflow-hidden pt-32 ${isRTL ? 'rtl' : ''}`}>
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-20 w-32 h-32 border border-security-gold rounded-full"></div>
@@ -25,32 +28,31 @@ const Hero = () => {
 
           {/* Main Heading */}
           <h1 className="font-montserrat font-bold text-5xl md:text-7xl text-white mb-6 leading-tight">
-            Ultra Professionnel
+            {t('hero.title')}
             <br />
             <span className="bg-gradient-to-r from-security-gold to-security-silver bg-clip-text text-transparent">
-              Protection
+              {t('hero.subtitle')}
             </span>
           </h1>
 
           {/* Subtitle */}
           <p className="font-roboto text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Elite protection services in Morocco. Discreet and professional security 
-            for executives, events and high-profile personalities.
+            {t('hero.description')}
           </p>
 
           {/* Service Highlights */}
           <div className="flex flex-wrap justify-center gap-6 mb-12">
-            <div className="flex items-center space-x-2 bg-security-dark/50 px-4 py-2 rounded-full border border-security-gold/30">
+            <div className={`flex items-center bg-security-dark/50 px-4 py-2 rounded-full border border-security-gold/30 ${isRTL ? 'space-x-reverse space-x-2' : 'space-x-2'}`}>
               <Shield className="h-5 w-5 text-security-gold" />
-              <span className="font-roboto text-sm text-gray-300">24/7 Protection</span>
+              <span className="font-roboto text-sm text-gray-300">{t('hero.protection247')}</span>
             </div>
-            <div className="flex items-center space-x-2 bg-security-dark/50 px-4 py-2 rounded-full border border-security-gold/30">
+            <div className={`flex items-center bg-security-dark/50 px-4 py-2 rounded-full border border-security-gold/30 ${isRTL ? 'space-x-reverse space-x-2' : 'space-x-2'}`}>
               <Shield className="h-5 w-5 text-security-gold" />
-              <span className="font-roboto text-sm text-gray-300">Certified Agents</span>
+              <span className="font-roboto text-sm text-gray-300">{t('hero.certifiedAgents')}</span>
             </div>
-            <div className="flex items-center space-x-2 bg-security-dark/50 px-4 py-2 rounded-full border border-security-gold/30">
+            <div className={`flex items-center bg-security-dark/50 px-4 py-2 rounded-full border border-security-gold/30 ${isRTL ? 'space-x-reverse space-x-2' : 'space-x-2'}`}>
               <Shield className="h-5 w-5 text-security-gold" />
-              <span className="font-roboto text-sm text-gray-300">Total Discretion</span>
+              <span className="font-roboto text-sm text-gray-300">{t('hero.totalDiscretion')}</span>
             </div>
           </div>
 
@@ -61,8 +63,8 @@ const Hero = () => {
                 size="lg" 
                 className="bg-gradient-to-r from-security-gold to-security-silver text-security-dark font-montserrat font-semibold hover:shadow-xl transition-all duration-300 hover:scale-105 group"
               >
-                Our Services
-                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                {t('hero.ourServices')}
+                <ArrowRight className={`h-5 w-5 group-hover:transition-transform ${isRTL ? 'mr-2 group-hover:-translate-x-1' : 'ml-2 group-hover:translate-x-1'}`} />
               </Button>
             </a>
           </div>
@@ -73,19 +75,19 @@ const Hero = () => {
               <div className="text-3xl md:text-4xl font-montserrat font-bold text-security-gold mb-2">
                 18+
               </div>
-              <p className="font-roboto text-gray-400">Years of Experience</p>
+              <p className="font-roboto text-gray-400">{t('hero.yearsExperience')}</p>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-montserrat font-bold text-security-gold mb-2">
                 24/7
               </div>
-              <p className="font-roboto text-gray-400">Availability</p>
+              <p className="font-roboto text-gray-400">{t('hero.availability')}</p>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-montserrat font-bold text-security-gold mb-2">
                 100%
               </div>
-              <p className="font-roboto text-gray-400">Confidential</p>
+              <p className="font-roboto text-gray-400">{t('hero.confidential')}</p>
             </div>
           </div>
         </div>
