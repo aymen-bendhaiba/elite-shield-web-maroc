@@ -48,11 +48,11 @@ const TopBar = () => {
               </a>
               
               <a 
-                href="tel:+212522123456"
+                href="tel:+212661317454"
                 className="flex items-center space-x-2 text-gray-300 hover:text-security-gold transition-colors"
               >
                 <Phone className="h-4 w-4" />
-                <span>+212 522 123 456</span>
+                <span>+212 661 317 454</span>
               </a>
             </div>
           </div>
