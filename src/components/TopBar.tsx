@@ -17,13 +17,15 @@ const TopBar = () => {
       <div className="container mx-auto px-4">
         <div className={`flex flex-col sm:flex-row justify-between items-center space-y-2 sm:space-y-0 ${isRTL ? 'flex-row-reverse' : ''}`}>
           {/* Languages */}
-          <div className={`flex items-center ${isRTL ? 'space-x-reverse space-x-4' : 'space-x-4'}`}>
+          <div className={`flex items-center ${isRTL ? 'space-x-reverse space-x-3' : 'space-x-3'}`}>
             {languages.map((lang) => (
               <button
                 key={lang.code}
                 onClick={() => setLanguage(lang.code as 'en' | 'fr' | 'ar')}
-                className={`flex items-center space-x-1 hover:opacity-80 transition-opacity ${
-                  language === lang.code ? 'opacity-100 scale-110' : 'opacity-70'
+                className={`flex items-center justify-center w-12 h-8 rounded-md border transition-all duration-300 ${
+                  language === lang.code 
+                    ? 'bg-security-gold text-security-dark border-security-gold scale-110 shadow-lg' 
+                    : 'bg-security-dark/50 text-gray-300 border-security-gold/30 hover:bg-security-gold/20 hover:border-security-gold/60'
                 }`}
                 title={lang.name}
               >
