@@ -17,21 +17,29 @@ const TopBar = () => {
       <div className="container mx-auto px-4">
         <div className={`flex flex-col sm:flex-row justify-between items-center space-y-2 sm:space-y-0 ${isRTL ? 'flex-row-reverse' : ''}`}>
           {/* Languages */}
-          <div className={`flex items-center ${isRTL ? 'space-x-reverse space-x-3' : 'space-x-3'}`}>
-            {languages.map((lang) => (
-              <button
-                key={lang.code}
-                onClick={() => setLanguage(lang.code as 'en' | 'fr' | 'ar')}
-                className={`flex items-center justify-center w-12 h-8 rounded-md border transition-all duration-300 ${
-                  language === lang.code 
-                    ? 'bg-security-gold text-security-dark border-security-gold scale-110 shadow-lg' 
-                    : 'bg-security-dark/50 text-gray-300 border-security-gold/30 hover:bg-security-gold/20 hover:border-security-gold/60'
-                }`}
-                title={lang.name}
-              >
-                <span className="text-lg">{lang.flag}</span>
-              </button>
-            ))}
+          <div className={`flex items-center ${isRTL ? 'space-x-reverse space-x-2' : 'space-x-2'}`}>
+            <span className="text-xs text-gray-400 font-medium mr-3">LANGUE:</span>
+            <div className="flex items-center bg-security-dark/70 backdrop-blur-sm rounded-xl border border-security-gold/30 p-1 shadow-lg">
+              {languages.map((lang) => (
+                <button
+                  key={lang.code}
+                  onClick={() => setLanguage(lang.code as 'en' | 'fr' | 'ar')}
+                  className={`relative flex items-center justify-center w-10 h-8 rounded-lg transition-all duration-300 group ${
+                    language === lang.code 
+                      ? 'bg-gradient-to-r from-security-gold to-yellow-400 text-security-dark shadow-md scale-105 border border-security-gold/50' 
+                      : 'text-gray-300 hover:bg-security-gold/20 hover:text-security-gold hover:scale-105'
+                  }`}
+                  title={lang.name}
+                >
+                  <span className={`text-sm transition-all duration-300 ${language === lang.code ? 'scale-110' : 'group-hover:scale-110'}`}>
+                    {lang.flag}
+                  </span>
+                  {language === lang.code && (
+                    <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-1 h-1 bg-security-gold rounded-full"></div>
+                  )}
+                </button>
+              ))}
+            </div>
           </div>
 
           {/* Contact Info */}
