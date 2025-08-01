@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Shield, Award, Users, Clock } from 'lucide-react';
+import CertificationDetails from './CertificationDetails';
 
 const CEOProfile = () => {
   return (
@@ -118,32 +119,7 @@ const CEOProfile = () => {
                 <Award className="h-6 w-6 text-security-gold mr-3" />
                 Specialized Training & Certifications
               </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                <div className="flex items-center space-x-3 bg-security-dark/30 p-3 rounded-lg">
-                  <div className="w-2 h-2 bg-security-gold rounded-full"></div>
-                  <span className="text-gray-300 text-sm">PDF Combat Diplomas A, B, C</span>
-                </div>
-                <div className="flex items-center space-x-3 bg-security-dark/30 p-3 rounded-lg">
-                  <div className="w-2 h-2 bg-security-gold rounded-full"></div>
-                  <span className="text-gray-300 text-sm">International CPO Certificate</span>
-                </div>
-                <div className="flex items-center space-x-3 bg-security-dark/30 p-3 rounded-lg">
-                  <div className="w-2 h-2 bg-security-gold rounded-full"></div>
-                  <span className="text-gray-300 text-sm">Red Belt 3rd Grade</span>
-                </div>
-                <div className="flex items-center space-x-3 bg-security-dark/30 p-3 rounded-lg">
-                  <div className="w-2 h-2 bg-security-gold rounded-full"></div>
-                  <span className="text-gray-300 text-sm">Taekwondo Black Belt</span>
-                </div>
-                <div className="flex items-center space-x-3 bg-security-dark/30 p-3 rounded-lg">
-                  <div className="w-2 h-2 bg-security-gold rounded-full"></div>
-                  <span className="text-gray-300 text-sm">Taekwondo Coach Certificate</span>
-                </div>
-                <div className="flex items-center space-x-3 bg-security-dark/30 p-3 rounded-lg">
-                  <div className="w-2 h-2 bg-security-gold rounded-full"></div>
-                  <span className="text-gray-300 text-sm">First Aid Certificate</span>
-                </div>
-              </div>
+              <CertificationDetails />
             </div>
 
             {/* Key Competencies */}
