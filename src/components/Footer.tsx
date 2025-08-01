@@ -199,15 +199,6 @@ const Footer = () => {
               </div>
             </div>
             
-            <div className="flex items-center space-x-2 text-sm">
-              <Globe className="h-4 w-4 text-security-gold" />
-              <span className="text-gray-400">Available in:</span>
-              <span className="text-security-gold">FR</span>
-              <span className="text-gray-400">|</span>
-              <span className="text-gray-400">AR</span>
-              <span className="text-gray-400">|</span>
-              <span className="text-gray-400">EN</span>
-            </div>
           </div>
         </div>
       </div>
