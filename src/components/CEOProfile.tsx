@@ -3,6 +3,7 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Shield, Award, Users, Clock } from 'lucide-react';
 import CertificationDetails from './CertificationDetails';
+import SkillDetails from './SkillDetails';
 
 const CEOProfile = () => {
   return (
@@ -128,28 +129,7 @@ const CEOProfile = () => {
                 <Clock className="h-6 w-6 text-security-gold mr-3" />
                 Key Skills
               </h3>
-              <div className="space-y-3">
-                <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-gradient-to-r from-security-gold to-security-silver rounded-full"></div>
-                  <span className="text-gray-300">Close Protection Expert</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-gradient-to-r from-security-gold to-security-silver rounded-full"></div>
-                  <span className="text-gray-300">Executive Protection Specialist</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-gradient-to-r from-security-gold to-security-silver rounded-full"></div>
-                  <span className="text-gray-300">Security Team Manager</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-gradient-to-r from-security-gold to-security-silver rounded-full"></div>
-                  <span className="text-gray-300">Event Security Manager</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-gradient-to-r from-security-gold to-security-silver rounded-full"></div>
-                  <span className="text-gray-300">Security Group Supervisor</span>
-                </div>
-              </div>
+              <SkillDetails />
             </div>
 
             {/* CTA Button */}
