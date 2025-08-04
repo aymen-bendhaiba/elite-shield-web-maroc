@@ -37,7 +37,7 @@ const CEOProfile = () => {
                 <div className="space-y-2 text-sm">
                   <p className="text-gray-300">📞 +212 613 036 746</p>
                   <p className="text-gray-300">📞 +212 661 317 454</p>
-                  <p className="text-gray-300">✉️ hassane.outikni@gmail.com</p>
+                  <p className="text-gray-300">✉️ ultraproprotection@gmail.com</p>
                 </div>
               </div>
 

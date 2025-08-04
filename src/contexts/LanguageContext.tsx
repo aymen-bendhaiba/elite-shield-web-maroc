@@ -14,7 +14,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 const translations = {
   en: {
     // TopBar
-    'topbar.email': 'hassane.outikni@gmail.com',
+    'topbar.email': 'ultraproprotection@gmail.com',
     
     // Hero
     'hero.title': 'Ultra Professional',
@@ -69,7 +69,7 @@ const translations = {
   },
   fr: {
     // TopBar
-    'topbar.email': 'hassane.outikni@gmail.com',
+    'topbar.email': 'ultraproprotection@gmail.com',
     
     // Hero
     'hero.title': 'Ultra Professionnel',
@@ -124,7 +124,7 @@ const translations = {
   },
   ar: {
     // TopBar
-    'topbar.email': 'hassane.outikni@gmail.com',
+    'topbar.email': 'ultraproprotection@gmail.com',
     
     // Hero
     'hero.title': 'الحماية الاحترافية',
