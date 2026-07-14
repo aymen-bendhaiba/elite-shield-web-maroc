@@ -111,6 +111,13 @@ const Gallery = () => {
       category: "transport",
       image: "/lovable-uploads/fa392567-9d21-4bb4-9e86-68744cf3b386.png",
       description: "Luxury vehicle fleet for secure transportation services"
+    },
+    {
+      id: 13,
+      title: "Secure VIP Vehicle Escort",
+      category: "transport",
+      image: transportExpertise.url,
+      description: "Black SUV fleet with professional security escort for VIP missions"
     }
   ];
 
