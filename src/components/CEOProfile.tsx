@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, Shield, Award, Users, Clock } from 'lucide-react';
 import CertificationDetails from './CertificationDetails';
 import SkillDetails from './SkillDetails';
-import hassaneProfile from '@/assets/hassane-profile.png.asset.json';
+import hassaneProfile from '@/assets/hassane-profile.png';
 
 const CEOProfile = () => {
   return (
@@ -23,7 +23,7 @@ const CEOProfile = () => {
               <div className="text-center mb-8">
                 <div className="w-40 h-40 mx-auto bg-gradient-to-br from-security-gold to-security-silver rounded-full p-1 mb-6">
                   <img 
-                    src={hassaneProfile.url}
+                    src={hassaneProfile}
                     alt="Hassane Outikni"
                     className="w-full h-full object-cover object-[center_25%] rounded-full"
                   />
