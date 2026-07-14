@@ -21,11 +21,11 @@ const CEOProfile = () => {
               </div>
               
               <div className="text-center mb-8">
-                <div className="w-32 h-32 mx-auto bg-gradient-to-br from-security-gold to-security-silver rounded-full p-1 mb-6">
+                <div className="w-40 h-40 mx-auto bg-gradient-to-br from-security-gold to-security-silver rounded-full p-1 mb-6">
                   <img 
                     src={hassaneProfile.url}
                     alt="Hassane Outikni"
-                    className="w-full h-full object-cover rounded-full"
+                    className="w-full h-full object-cover object-[center_25%] rounded-full"
                   />
                 </div>
                 
