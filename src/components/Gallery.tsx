@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import transportExpertise from '@/assets/transport-expertise.png.asset.json';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
