@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import transportExpertise from '@/assets/transport-expertise.png.asset.json';
-import transportExpertise2 from '@/assets/transport-expertise-2.png.asset.json';
+import transportExpertise from '@/assets/transport-expertise.png';
+import transportExpertise2 from '@/assets/transport-expertise-2.png';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
@@ -117,14 +117,14 @@ const Gallery = () => {
       id: 13,
       title: "Secure VIP Vehicle Escort",
       category: "transport",
-      image: transportExpertise.url,
+      image: transportExpertise,
       description: "Black SUV fleet with professional security escort for VIP missions"
     },
     {
       id: 14,
       title: "Luxury Airport Transfer",
       category: "transport",
-      image: transportExpertise2.url,
+      image: transportExpertise2,
       description: "Premium SUV awaiting VIP client beside private jet on the tarmac"
     }
   ];
